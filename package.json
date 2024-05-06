@@ -1,17 +1,19 @@
+
 {
-  "dependencies": {
-    "express": "^4.19.2",
-    "mongoose": "^8.3.3"
-  },
-  "name": "express-demo",
+  "name": "express demo",
   "version": "1.0.0",
-  "main": "app.js",
+  "description": "A CRUD API application",
   "scripts": {
     "start": "node app.js",
-    "run": "nodemon app.js"
+    "run": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.2"
+  }
 }
