@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.3.3"
+  },
+  "name": "express-demo",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
